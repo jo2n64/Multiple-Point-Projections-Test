@@ -1,0 +1,372 @@
+# depslib dependency file v1.0
+1411579697 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\001_sfml_basics_sprite_and_movement\src\main.cpp
+	<iostream>
+	<SFML\Graphics.hpp>
+
+1479558123 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\002_sfml_nested_containers\src\scenenode.cpp
+	"SceneNode.h"
+	<algorithm>
+	<cassert>
+	<iostream>
+
+1479558160 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\002_sfml_nested_containers\src\scenenode.h
+	<vector>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+
+1474899246 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\002_sfml_nested_containers\src\spritenode.cpp
+	"SpriteNode.h"
+	<SFML/Graphics/RenderTarget.hpp>
+
+1474899042 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\002_sfml_nested_containers\src\spritenode.h
+	"SceneNode.h"
+	<SFML/Graphics/Sprite.hpp>
+
+1479558080 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\002_sfml_nested_containers\src\main.cpp
+	<iostream>
+	<SFML\Graphics.hpp>
+	<SceneNode.h>
+	<SpriteNode.h>
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\201_sfml_opengl_external_shader_with_vertexdata_array\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\201_sfml_opengl_external_shader_with_vertexdata_array\src\glutil.h
+	<vector>
+
+1444942767 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\201_sfml_opengl_external_shader_with_vertexdata_array\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"glutil.h"
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\031_sfml_opengl_external_shader_fragment_shaded_triangle_with_vertex_and_color_vbo\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\031_sfml_opengl_external_shader_fragment_shaded_triangle_with_vertex_and_color_vbo\src\glutil.h
+	<vector>
+
+1444942765 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\031_sfml_opengl_external_shader_fragment_shaded_triangle_with_vertex_and_color_vbo\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"glutil.h"
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\001_moving_through_code\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\001_moving_through_code\src\glutil.h
+	<vector>
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\002_moving_through_code_and_shader\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\002_moving_through_code_and_shader\src\glutil.h
+	<vector>
+
+1444942800 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\002_moving_through_code_and_shader\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<ctime>
+	"glutil.h"
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\003_moving_through_shader\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\003_moving_through_shader\src\glutil.h
+	<vector>
+
+1444942798 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\040_sfml_opengl_external_shader_moving_2d_triangle\003_moving_through_shader\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<ctime>
+	"glutil.h"
+
+1444942813 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\050_sfml_opengl_external_shader_moving_3d_objects\001_prism_orthogonal_vbo\src\glutil.cpp
+	<gl/glew.h>
+	"glutil.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1379963285 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\050_sfml_opengl_external_shader_moving_3d_objects\001_prism_orthogonal_vbo\src\glutil.h
+	<vector>
+
+1444942764 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\example_set_1\050_sfml_opengl_external_shader_moving_3d_objects\001_prism_orthogonal_vbo\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<ctime>
+	"glutil.h"
+
+1479568248 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\_todo\010_sfml_opengl_external_shader_streamed_triangke\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\_todo\010_sfml_opengl_external_shader_streamed_triangke\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479588259 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\_todo\010_sfml_opengl_external_shader_streamed_triangke\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"ShaderUtil.h"
+
+1447660897 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\031_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos)\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"ShaderUtil.h"
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\031_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos)\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479588431 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\031_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos)\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588431 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\041_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\041_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479588431 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\051_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)_b\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\051_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)_b\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479588431 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\052_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)_c\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\052_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)_c\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479633031 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\052_sfml_ogl_prog_pipeline_external_shader(util)_vbo_triangle_data(pos+color)_c\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"ShaderUtil.h"
+
+1479588431 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\060_sfml_opengl_external_shader_vao_triangle_with_color_from_one_array\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479588234 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\060_sfml_opengl_external_shader_vao_triangle_with_color_from_one_array\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479746419 source:g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\080_sfml_ogl_prog_pipeline_external_shader(util)_vao_3d_cube_mvp_demo\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1479588234 g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\080_sfml_ogl_prog_pipeline_external_shader(util)_vao_3d_cube_mvp_demo\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479588431 source:g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\003_code_samples\080_sfml_ogl_prog_pipeline_external_shader(util)_vao_3d_cube_mvp_demo\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1479923375 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1480151787 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479923375 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples+\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1480151787 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples+\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1481470753 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples+\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	"glm.hpp"
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1427147572 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples+\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1479923375 source:g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples-\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1480151787 g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples-\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1481532056 source:g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples-\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	"glm.hpp"
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1427147572 g:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\101_sheets\lecture_2_samples-\2_18_sfml_opengl_external_shader_vbo_2_cubes_camera_lookat\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1479923376 source:d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1480151788 d:\data\dropbox\saxion\courses\kwartaal_2\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479923376 source:d:\data\dropbox\hw\saxion\courses_ge\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1480151788 d:\data\dropbox\hw\saxion\courses_ge\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1545040619 source:d:\data\dropbox\hw\saxion\courses_ge\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	"glm.hpp"
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1427147572 d:\data\dropbox\hw\saxion\courses_ge\2_2_c++_3d\007_sheets\lecture_2_samples-\009_lookat\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1545303989 source:d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples-\001_lookat\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	"glm.hpp"
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1427147572 d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples-\001_lookat\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1480151788 d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples-\001_lookat\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479923376 source:d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples-\001_lookat\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
+1513683684 source:d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples+\008_camera_fps_ok\src\main.cpp
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	"glm.hpp"
+	<iostream>
+	<cmath>
+	"ShaderUtil.h"
+
+1427147572 d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples+\008_camera_fps_ok\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1480151788 d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples+\008_camera_fps_ok\src\shaderutil.h
+	<GL/glew.h>
+	<vector>
+	<iostream>
+
+1479923376 source:d:\data\dropbox\hw\saxion\courses_cmgt\2_2_c++_3d\007_sheets\lecture_2_samples+\008_camera_fps_ok\src\shaderutil.cpp
+	"ShaderUtil.h"
+	<fstream>
+	<sstream>
+
