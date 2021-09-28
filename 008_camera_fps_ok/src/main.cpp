@@ -202,8 +202,6 @@ int main() {
 
 		diffNormalized = sf::Vector2f(diff.x / diffLength, diff.y / diffLength);
 
-		std::cout << diffNormalized.x * sensitivity << ", " << diffNormalized.y * sensitivity << std::endl;
-
 		//translate camera
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
 			//notice the -!
@@ -263,10 +261,13 @@ int main() {
 		sf::Vector2u windowSize = window.getSize();
 		glm::mat4 projectionMatrix = glm::perspective(glm::radians(fov), windowSize.x / (float)windowSize.y, 0.1f, 1000.0f);
 		glm::mat4 projMatrix = glm::frustum(-w, w, -h, h, near, far);
-		glm::mat4 rotMatrix = glm::rotate(glm::radians(45.0f), glm::vec3(0, 1, 0));
-		glm::mat4 minusRotMatrix = glm::rotate(glm::radians(-45.0f), glm::vec3(0, 1, 0));
-		glm::mat4 twoPointProjMatrix = glm::twoPointPerspectiveRH(-w, w, -h, h, near, far);
+		glm::mat4 rotMatrix = glm::rotate(glm::radians(30.0f), glm::vec3(0, 1, 0));
+		glm::mat4 minusRotMatrix = glm::inverse(rotMatrix);
+		//glm::mat4 twoPointProjMatrix = glm::twoPointPerspectiveRH(-w, w, -h, h, near, far);
+		glm::mat4 twoPointProjMatrix = minusRotMatrix * projMatrix * rotMatrix;
 		glm::mat4 threePointProjMatrix = glm::threePointPerspectiveRH(-w, w, -h, h, near, far);
+
+		glm::mat4 projMatrixPartOne = minusRotMatrix * projMatrix;
 
 		glm::mat4 vp = twoPointProjMatrix * viewMatrix;
 
@@ -280,11 +281,21 @@ int main() {
 		glVertexAttribPointer(colorIndex, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
 
 		glm::mat4 modelMatrix1(glm::scale(glm::vec3(3, 0.01f, 3)));
-		glUniformMatrix4fv(glGetUniformLocation(programID, "mvpMatrix"), 1, GL_FALSE, glm::value_ptr(vp * modelMatrix1));
+		//glUniformMatrix4fv(glGetUniformLocation(programID, "mvpMatrix"), 1, GL_FALSE, glm::value_ptr(vp * modelMatrix1));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projMatrixPartOne"), 1, GL_FALSE, glm::value_ptr(projMatrixPartOne));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projMatrixPartTwo"), 1, GL_FALSE, glm::value_ptr(rotMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projectionMatrix"), 1, GL_FALSE, glm::value_ptr(twoPointProjMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "viewMatrix"), 1, GL_FALSE, glm::value_ptr(viewMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "modelMatrix"), 1, GL_FALSE, glm::value_ptr(modelMatrix1));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		glm::mat4 modelMatrix2(glm::translate(glm::vec3(0, 1, 0)));
-		glUniformMatrix4fv(glGetUniformLocation(programID, "mvpMatrix"), 1, GL_FALSE, glm::value_ptr(vp * modelMatrix2));
+		//glUniformMatrix4fv(glGetUniformLocation(programID, "mvpMatrix"), 1, GL_FALSE, glm::value_ptr(vp * modelMatrix2));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projMatrixPartOne"), 1, GL_FALSE, glm::value_ptr(projMatrixPartOne));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projMatrixPartTwo"), 1, GL_FALSE, glm::value_ptr(rotMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "projectionMatrix"), 1, GL_FALSE, glm::value_ptr(twoPointProjMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "viewMatrix"), 1, GL_FALSE, glm::value_ptr(viewMatrix));
+		glUniformMatrix4fv(glGetUniformLocation(programID, "modelMatrix"), 1, GL_FALSE, glm::value_ptr(modelMatrix2));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		glDisableVertexAttribArray(vertexIndex);

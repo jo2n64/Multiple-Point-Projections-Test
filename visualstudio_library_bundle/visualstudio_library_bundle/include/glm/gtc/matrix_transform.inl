@@ -256,7 +256,7 @@ namespace glm
 
 	template <typename T>
 	GLM_FUNC_QUALIFIER tmat4x4<T, defaultp> twoPointPerspectiveRH(T left, T right, T bottom, T top, T nearVal, T farVal) {
-		T sampleAngle = static_cast<T>(90.0f);
+		T sampleAngle = static_cast<T>(0.0f);
 		tmat4x4<T, defaultp> rotY = glm::rotate(glm::radians(sampleAngle), glm::vec3(0, 1, 0));
 		tmat4x4<T, defaultp> rotMinusY = glm::inverse(rotY);
 
